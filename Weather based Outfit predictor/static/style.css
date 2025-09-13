@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f7ff;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* center horizontally */
+  gap: 10px; /* space between logo and title */
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 60px;  /* adjust size */
+  height: auto;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+input[name="city"] {
+  width: 300px;   /* increase this value to make it wider */
+  padding: 10px;  /* add some spacing inside */
+  font-size: 1em; /* make text bigger */
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px; /* spacing before button */
+}
